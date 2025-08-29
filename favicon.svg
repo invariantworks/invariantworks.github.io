@@ -1,6 +1,18 @@
-<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700');
+    .logo-text {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+    }
+    .logo-works {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 400;
+      font-size: 48px;
+      fill: #222;
+    }
   </style>
-  <text x="0" y="36" font-family="'Montserrat', Arial, sans-serif" font-weight="700" font-size="32" fill="#0e76d2">i</text>
+  <text x="0" y="48"><tspan class="logo-text" fill="#0e76d2">i</tspan><tspan class="logo-works" font-weight="400" fill="#fff">w</tspan></text>
+  <line x1="0" y1="54" x2="40" y2="54" stroke="#222" stroke-width="4" />
 </svg>
