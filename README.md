@@ -1,2 +1,3 @@
-# invariantworks.github.io
+# invariantworks.com
+
 Public website
