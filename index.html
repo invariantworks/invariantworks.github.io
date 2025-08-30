@@ -32,14 +32,23 @@
             gap: 16px;
             margin-top: 12px;
         }
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
-    <div style="display: flex; justify-content: center;">
+    <div class="flex-center">
         <img src="icons/invariant-logo-black.svg" alt="Invariant Works Logo" style="width: 50vw; max-width: 100%; height: auto;">
     </div>
-    <p>We are a boutique consulting firm that helps make your software more reliable.</p>
+    <div class="flex-center">
+    <p>We build and enable software that doesn't break when it matters most.</p>
+    </div>
+    <div class="flex-center">
     <p><a class="contact" href="mailto:contact@invariantworks.com">contact@invariantworks.com</a></p>
+    </div>
     <div class="links">
         <a href="privacy_policy.html">Privacy Policy</a>
         <a href="terms_and_conditions.html">Terms & Conditions</a>
